@@ -1,0 +1,254 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48900508-9"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-48900508-9');
+		</script>
+
+		<title>Pre-Training for Robotics Workshop, NeurIPS 2022</title>
+		<meta name="description" content="Website for the Pre-Training for Robotics (PT4R) workshop at the ICRA 2023">
+		<meta name="author" content="Sai Vemprala">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="stylesheet" href="assets/css/lightbox.css" />
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<!-- <span class="logo"><img src="images/bg_new.jpeg" alt="" /></span>  -->
+				
+						<h1><b>Pre-Training for Robotics</b></h1>
+						<h2>Workshop at the 2023 International Conference on Robotics and Automation<br>
+						May 2023</h2>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#about" class="active">About</a></li>
+							<li><a href="#speakers">Speakers</a></li>
+							<li><a href="#cfp">Call for papers</a></li>
+							<li><a href="#organizers">Organizers</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<section id="about" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>About</h2>
+									</header>
+
+									<p>
+										Recent advances in machine learning have started a paradigm shift from task-specific models towards large general-purpose architectures. In the domains of language and vision we see large models such as GPT3, BERT, and CLIP that have opened avenues towards solving several applications and continue to cause an explosion of new ideas and possibilities. What does  it take to bring the same level of advancements to the field of robotics - in order to build versatile agents that can be deployed in challenging environments?
+
+										The goal of this workshop is to analyze how we can scale robotics towards the complexity of real world by leveraging pretrained models. We will discuss how to apply the concept of large scale pretraining to robotics, so as to enable models to learn how to process diverse, multimodal perception inputs, connect perception with action, and generalize across scenarios and form factors. In particular, we are interested in analyzing the domain of pretraining for robotics from several angles such as, and not limited to:
+
+										<ul>
+										<li> How do we build pre-trained reusable feature representations from complex inputs? </li>
+										<li>  How do we learn world models that combine perception and actions? </li>
+										<li>  What are the right kinds of priors that are helpful for optimization and task planning? </li>
+										<li>  How do we leverage architectures and training methods that have been successful in other domains in robotics? </li>
+										<li>  How do we efficiently fine-tune pretrained models for new downstream tasks? </li>
+										<li>  How best to deal with the specificities of robotics such as expensive data collection and safety constraints? </li>
+										</ul>
+
+										We hope to connect researchers from the communities of deep learning, representation learning, classical robotics, and to induce collaborations in this exciting new domain, while providing a platform to discuss recent developments, challenges and tradeoffs. 
+
+										
+									</p>
+
+								</div>
+							</div>
+						</section>
+
+						<section id="speakers" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>Speakers and panelists</h2>
+									</header>
+									<!-- <h3>Invited talks</h3> -->
+									<ul class="features">
+									   <li>
+											<img style="width:9.1em; height: 9.1em; border-radius: 50%; object-fit: cover;" src="images/dieterfox.jpeg" alt=""/>
+										   <h3><a href="https://homes.cs.washington.edu/~fox/">Dieter Fox</a></br>University of Washington / NVIDIA</h3>
+									   </li>
+										<li>
+											<img style="width:9.1em; height: 9.1em; border-radius: 50%; object-fit: cover;" src="images/macschwager.png" alt=""/>
+											<h3><a href="https://web.stanford.edu/~schwager/">Mac Schwager</a></br>Stanford University</h3>
+										</li>
+										<li>
+											<img style="width:9.1em; height: 9.1em; border-radius: 50%; object-fit: cover;"src="images/dorsasadigh.jpeg" alt=""/>
+											<h3><a href="https://dorsa.fyi">Dorsa Sadigh</a></br>Stanford University</h3>
+										</li>
+									</ul>
+									<ul class="features"> 
+										<li>
+											<img style="width:9.1em; height: 9.1em; border-radius: 50%; object-fit: cover;"src="images/sanjiban.png" alt=""/>
+											<h3><a href="https://www.sanjibanchoudhury.com">Sanjiban Choudhury</a></br>Cornell University</h3>
+										</li>	
+										<li>
+											<img style="width:9.1em; height: 9.1em; border-radius: 50%; object-fit: cover;" src="images/ashishkapoor.jpeg" alt=""/>
+											<h3><a href="https://www.microsoft.com/en-us/research/people/akapoor/" target="_blank"">Ashish Kapoor</a></br>Microsoft</h3>
+										</li>	
+										<li>
+											<img style="width:9.1em; height: 9.1em; border-radius: 50%; object-fit: cover;" src="images/kristengrauman.jpeg" alt=""/>
+											<h3><a href="https://www.cs.utexas.edu/users/grauman/" target="_blank">Kristen Grauman</a></br>University of Texas Austin</h3>
+										</li>	
+									</ul>
+								</div>
+							</div>
+						</section>
+
+
+						<section id="cfp" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>Call for papers</h2>
+									</header>
+
+									<h3>Important dates (all times AoE)</h3>
+									<ul>
+										<li>Submission Deadline: Jan 1</li>
+										<li>Accept/Reject Notification Date: Jan 2
+										<li>Workshop: December 3</li>
+									</ul>
+
+									<h3>Call for papers</h3>
+
+									<p>In this workshop, we aim to bring together machine learning and robotics researchers who work at the intersection of these fields </p>
+									
+									<p>We invite researchers to submit work particularly in the following areas or areas related to them:</p>
+
+									<h4>Posters</h4>
+									<p>Accepted work will be presented as posters during the workshop. We encourage submissions of work in progress, as well as work that is not yet published. </p>
+
+									<h3>Submission instructions</h3>
+
+									<ul>
+										<li>Submissions should be short papers up to 4 pages in PDF format. </li>
+									</ul>
+									
+								</div>
+							</div>
+						</section>
+
+						<section id="organizers" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>Organizers</h2>
+									</header>
+
+									<p>For questions and comments, please contact us at <a href="mailto:pretraining4robotics@maildomain.com">insert email here?</a>.</p>
+
+									<ul class="features">
+										<li>
+											<img style="width:7.1em; height: 7.1em; border-radius: 50%; object-fit: cover;" src="images/rb.jpeg" alt=""/>
+											<h3><a href="https://rogeriobonatti.com/">Rogerio Bonatti</a></br>Microsoft</h3>
+										</li>
+										<li>
+											<img style="width:7.1em; height: 7.1em; border-radius: 50%; object-fit: cover;" src="images/sv.png" alt=""/>
+											<h3><a href="https://www.saihv.com">Sai Vemprala</a></br>Microsoft</h3>
+										</li>
+										<li>
+											<img style="width:7.1em; height: 7.1em; border-radius: 50%; object-fit: cover;"  src="images/mm.jpeg	" alt=""/>
+											<h3><a href="https://mustafamukadam.com/">Mustafa Mukadam</a></br>Facebook AI Research</h3>
+										</li>
+									</ul>
+									<ul class="features">
+										<li>
+											<img style="width:7.1em; height: 7.1em; border-radius: 50%; object-fit: cover;" src="images/lf.jpeg" alt=""/>
+											<h3><a href="https://www.mirmi.tum.de/mirmi/team/figueredo-luis/">Luis Figueredo</a></br>Technical University of Munich</h3>
+										</li>
+										<li>
+											<img style="width:7.1em; height: 7.1em; border-radius: 50%; object-fit: cover;" src="images/al.jpeg" alt=""/>
+											<h3><a href="https://antonilo.github.io/">Antonio Loquercio</a></br>University of California Berkeley</h3>
+										</li>
+										<li>
+											<img style="width:7.1em; height: 7.1em; border-radius: 50%; object-fit: cover;" src="images/xl.png" alt=""/>
+											<h3><a href="https://xingyul.github.io/">Xingyu Liu</a></br>Carnegie Mellon University</h3>
+										</li>
+										<li>
+											<img style="width:7.1em; height: 7.1em; border-radius: 50%; object-fit: cover;"  src="images/vb.jpeg" alt=""/>
+											<h3><a href="https://cs.cornell.edu/~valts/">Valts Blukis</a></br>NVIDIA</h3>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<section id="contact" class="main">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>Contact</h2>
+									</header>
+									<p>For questions or comments, please contact <a href="mailto:pretraining4robotics@googlegroups.com">us</a>.</p>
+								</div>
+							</div>
+						</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<!-- <p class="copyright">Background image: <a href="https://www.spacetelescope.org/images/potw1712a/">NGC 3447 from Hubble WFC3</a></p> -->
+						<p class="copyright">Copyright &copy; Sai Vemprala. Design: <a href="https://html5up.net">HTML5 UP</a>.</br>Design inspired by <a href="http://bayesiandeeplearning.org/">http://bayesiandeeplearning.org/</a> by Yarin Gal.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts  -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<!-- Default Statcounter code for
+			ml4physicalsciences.github.io
+			https://ml4physicalsciences.github.io/ -->
+			<script type="text/javascript">
+			var sc_project=12052169;
+			var sc_invisible=1;
+			var sc_security="0155c36a";
+			var sc_https=1;
+			</script>
+			<script type="text/javascript"
+			src="https://www.statcounter.com/counter/counter.js"
+			async></script>
+			<noscript><div class="statcounter"><a title="free hit
+			counter" href="https://statcounter.com/"
+			target="_blank"><img class="statcounter"
+			src="https://c.statcounter.com/12052169/0/0155c36a/1/"
+			alt="free hit counter"></a></div></noscript>
+			<!-- End of Statcounter Code -->
+			<script src="assets/js/lightbox.js"></script>
+	</body>
+</html>
