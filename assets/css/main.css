@@ -1625,6 +1625,10 @@
 	body {
 		/*background-color: #935d8c;*/
 		background-image: url("images/bgnew.jpeg");
+		width: 100vw;
+		height: 100vh;
+		background-size: cover;
+		background-position: center, center;
 	}
 
 		/* body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1642,9 +1646,13 @@
 
 	body {
 		background-image: url("images/bgnew.jpeg");
-		background-size: contain;
 		background-repeat: no-repeat;
 		color: rgba(0, 0, 0, 1.0);
+
+		width: 100vw;
+		height: 100vh;
+		background-size: cover;
+		background-position: center, center;
 	}
 
 	body, input, select, textarea {
